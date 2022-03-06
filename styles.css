@@ -1,0 +1,33 @@
+:root {
+     --bg-color: #323437;
+     --sub-color:#646669;
+     --text-color: #d1d0c5;
+     --error-color: #ca4754;
+     --font: "Roboto Mono", "Roboto Mono";
+}
+
+body {
+     font-family: var(--font);
+     color: var(--text-color);
+     background-color: var(--bg-color);
+}
+div.text{
+     color: var(--text-color);
+}
+
+.word {
+     color: var(--sub-color);
+}
+
+.word letter.correct {
+     color: var(--text-color);
+}
+
+.word letter.incorrect {
+     color: var(--error-color);
+     position: relative;
+}
+
+.wrap {
+     text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--
+        HTML Preview プラグイン
+        Ctrl + K → V：プレビュー
+        Shift + Alt + F：フォーマッター 
+    -->
+
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="title">type</div>
+    <div class="wrap">
+        <div id="count"></div>
+        <p></p>
+        <input type="button" id="start_button" value="start">
+        <h1>
+            <div id="japanese"></div>
+        </h1>
+        <h2>
+            <div id="words"></div>
+        </h2>
+        <div id="scoredis"></div>
+        <!--
+            // SPEC:イメージ図　(in:tonkotsura-men/豚骨ラーメン)
+            // SPEC:未入力の単語は、classにwordのみを追加する
+            <div class="word">
+                ~~~
+            // SPEC:入力中の単語は、classにactiveを追加する
+            <div class="word active">
+                <letter>t</letter>
+                <letter>o</letter>
+                <letter>n</letter>
+                <letter>k</letter>
+                <letter>o</letter>
+                <letter>t</letter>
+                <letter>s</letter>
+                <letter>u</letter>
+                <letter>r</letter>
+                <letter>a</letter>
+                <letter>-</letter>
+                <letter>m</letter>
+                <letter>e</letter>
+                <letter>n</letter>
+            </div>
+            // SPEC:入力中の文字(letter)は、
+            // 入力想定と合っている場合は、correct
+            <div class="word active">
+                <letter class="correct">t</letter>
+            //あっていない場合は、incorrectをclassに追加する。
+            <div class="word active">
+                <letter class="incorrect">t</letter>
+        -->
+
+        <script src="typeing.js"></script>
+</body>
+
+</html>
